@@ -4,6 +4,8 @@ const { NewMessage } = require("telegram/events");
 const input = require("input"); // npm i input
 const { Api } = require("telegram");
 
+const keep_alive = require('./keep_alive.js');
+
 
 require('dotenv').config();
 
